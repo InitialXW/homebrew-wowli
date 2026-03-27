@@ -13,7 +13,6 @@ cask "wowli" do
 
   zap trash: [
         "~/Library/Preferences/com.gogoxgo.Wowli.plist",
-        "~/Library/Application Support/Wowli"
-      ],
-      login_keychain_item: "com.gogoxgo.Wowli.license"
+        "~/Library/Application Support/Wowli",
+      ]
 end
