@@ -10,3 +10,4 @@ cask "wowli" do
     depends_on macos: ">= :ventura"
 
     app "Wowli.app"
+end
