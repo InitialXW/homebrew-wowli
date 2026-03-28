@@ -1,6 +1,6 @@
 cask "wowli" do
-  version "0.3.1"
-  sha256 "2ae2d8e3ff62fd46a103505bd3ad0e12c69fe4ec0ad62c886a3ae4f131286d4e"
+  version "0.3.2"
+  sha256 "1192b5efeb3990740bfe4c3ed81e13b8820d56a6de29cf2859e061f6951c3291"
 
   url "https://wowli.gogoxgo.com/downloads/Wowli-#{version}.dmg"
   name "Wowli"
@@ -12,7 +12,7 @@ cask "wowli" do
   app "Wowli.app"
 
   zap trash: [
-        "~/Library/Preferences/com.gogoxgo.Wowli.plist",
-        "~/Library/Application Support/Wowli",
-      ]
+    "~/Library/Preferences/com.gogoxgo.Wowli.plist",
+    "~/Library/Application Support/Wowli",
+  ]
 end
