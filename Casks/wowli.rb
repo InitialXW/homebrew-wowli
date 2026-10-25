@@ -7,7 +7,7 @@ cask "wowli" do
   desc "Real-time AI meeting assistant for macOS"
   homepage "https://wowli.gogoxgo.com"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Wowli.app"
 
