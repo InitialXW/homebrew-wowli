@@ -1,6 +1,6 @@
 cask "wowli" do
   version "0.3.4"
-  sha256 "9c9c1644599b6fd8c55945bbe3797c17b061a35761d4dbae35ce794f0b57eec9"
+  sha256 "ea2555450f9e32efb6d61fa38404876a023e58ad29f4cd52f43b94ce2f80d810"
 
   url "https://wowli.gogoxgo.com/downloads/Wowli-#{version}.dmg"
   name "Wowli"
